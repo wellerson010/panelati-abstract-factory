@@ -7,16 +7,8 @@ using System.Threading.Tasks;
 
 namespace PanelaTI.AbstractFactory.Entitites
 {
-    public class BrazilBlock : IBlock
+    public class BrazilWell : IWell
     {
-        public DateTime StartDate { get; set; }
-        public DateTime EndDate { get; set; }
         public string Name { get; set; }
-
-        public BrazilBlock()
-        {
-            StartDate = DateTime.Now;
-            EndDate = StartDate.AddYears(5);
-        }
     }
 }

@@ -8,5 +8,6 @@ namespace PanelaTI.AbstractFactory.Interfaces
 {
     public interface IWell
     {
+        string Name { get; set; }
     }
 }

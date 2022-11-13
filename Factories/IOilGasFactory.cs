@@ -9,8 +9,6 @@ namespace PanelaTI.AbstractFactory.Factories
 {
     public interface IOilGasFactory
     {
-        IField BuildField();
-
         IBlock BuildBlock();
 
         IWell BuildWell();

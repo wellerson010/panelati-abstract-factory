@@ -8,5 +8,10 @@ namespace PanelaTI.AbstractFactory.Interfaces
 {
     public interface IBlock
     {
+        DateTime StartDate { get; set; }
+
+        DateTime EndDate { get; set; }
+
+        string Name { get; set; }
     }
 }
